@@ -15,9 +15,3 @@ def resoudreEquationSecondDegre(a,b,c):
       retour = [-b/(2*a)] #liste d'un seul élément
    return retour
 
-def somme(liste):
-    _somme = 0
-    for i in liste:
-        _somme = _somme + i
-    return _somme
-
